@@ -416,7 +416,7 @@
         <h3 class="text-xl font-bold text-gray-800 mb-2">表單已送出！</h3>
         <p class="text-gray-600 mb-6">加入我們的 LINE 好友，即時掌握估價進度</p>
         <!-- TODO: 替換為實際 LINE OA 加好友連結 -->
-        <a href="#LINE_OA_LINK" id="line-btn" class="btn-line text-white px-8 py-4 rounded-full font-bold text-lg inline-flex items-center justify-center gap-3">
+        <a href="https://line.me/R/ti/p/@988nfrey" id="line-btn" class="btn-line text-white px-8 py-4 rounded-full font-bold text-lg inline-flex items-center justify-center gap-3">
           <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
             <path d="M22 10.5c0-5.24-5.26-9.5-11.73-9.5C3.79 1 0 5.26 0 10.5c0 4.69 4.16 8.62 9.78 9.37.38.08.9.25 1.03.58.12.3.08.76.04 1.06l-.17 1c-.05.3-.23 1.16 1.02.63 1.24-.53 6.7-3.94 9.14-6.74C22.68 14.36 24 12.56 24 10.5h-2z"/>
           </svg>
@@ -493,7 +493,7 @@
           <h3 class="text-white font-bold text-xl mb-4">品毅空調工程有限公司</h3>
           <p class="text-sm leading-relaxed mb-4">專營家用變頻、多聯變頻、中央空調的設計規劃、安裝施工與維護保養。服務北北基地區，免費到府估價。</p>
           <!-- LINE Button in footer -->
-          <a href="#LINE_OA_LINK" class="btn-line text-white px-6 py-3 rounded-full font-medium text-sm inline-flex items-center gap-2">
+          <a href="https://line.me/R/ti/p/@988nfrey" class="btn-line text-white px-6 py-3 rounded-full font-medium text-sm inline-flex items-center gap-2">
             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
               <path d="M22 10.5c0-5.24-5.26-9.5-11.73-9.5C3.79 1 0 5.26 0 10.5c0 4.69 4.16 8.62 9.78 9.37.38.08.9.25 1.03.58.12.3.08.76.04 1.06l-.17 1c-.05.3-.23 1.16 1.02.63 1.24-.53 6.7-3.94 9.14-6.74C22.68 14.36 24 12.56 24 10.5h-2z"/>
             </svg>
@@ -554,7 +554,7 @@
     <a href="#estimate" class="flex-1 btn-cta text-white py-3 rounded-xl font-bold text-center">
       免費估價
     </a>
-    <a href="#LINE_OA_LINK" class="flex-1 btn-line text-white py-3 rounded-xl font-medium text-center flex items-center justify-center gap-1">
+    <a href="https://line.me/R/ti/p/@988nfrey" class="flex-1 btn-line text-white py-3 rounded-xl font-medium text-center flex items-center justify-center gap-1">
       <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M22 10.5c0-5.24-5.26-9.5-11.73-9.5C3.79 1 0 5.26 0 10.5c0 4.69 4.16 8.62 9.78 9.37.38.08.9.25 1.03.58.12.3.08.76.04 1.06l-.17 1c-.05.3-.23 1.16 1.02.63 1.24-.53 6.7-3.94 9.14-6.74C22.68 14.36 24 12.56 24 10.5h-2z"/></svg>
       LINE
     </a>
@@ -565,7 +565,7 @@
     // TODO: 替換為實際的 Google Apps Script Web App URL
     const GOOGLE_SCRIPT_URL = 'YOUR_GOOGLE_APPS_SCRIPT_URL';
     // TODO: 替換為實際的 LINE OA 加好友連結
-    const LINE_OA_URL = '#LINE_OA_LINK';
+    const LINE_OA_URL = 'https://line.me/R/ti/p/@988nfrey';
 
     document.getElementById('estimateForm').addEventListener('submit', async function(e) {
       e.preventDefault();
@@ -602,7 +602,7 @@
       document.getElementById('line-cta').classList.remove('hidden');
 
       // Update LINE button href
-      if (LINE_OA_URL !== '#LINE_OA_LINK') {
+      if (LINE_OA_URL !== 'https://line.me/R/ti/p/@988nfrey') {
         document.getElementById('line-btn').href = LINE_OA_URL;
       }
     });
